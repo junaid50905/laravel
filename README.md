@@ -18,6 +18,8 @@ class Student extends Model
 }
 ```
 
+we don't need write table if model name and table are same and model name is singular and table name is plural
+
 #### 2/ factory-------: php artisan make:factory StudentFactory |{which fields we want to fill}
 ```
 <?php
